@@ -72,9 +72,9 @@ public class App {
 
             Enrollee enrollee = new Enrollee("Valera" + count);
             count++;
-            System.out.println("New enrollee: " + enrollee.getName());
+            System.out.println("Новый абитуриент: " + enrollee.getName());
             Graduate graduate = university.process(enrollee);
-            System.out.println("New graduate: " + graduate.getName());
+            System.out.println("Новый выпускник: " + graduate.getName());
         }
 
     }

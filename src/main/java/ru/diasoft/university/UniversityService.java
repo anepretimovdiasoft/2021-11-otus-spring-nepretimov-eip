@@ -16,7 +16,7 @@ public class UniversityService {
         Thread.sleep(1 * 1000);
         System.out.println("Абитуриент " + enrollee.getName() + " зачислен");
 
-        return new Student(enrollee.getName(), "Group #" + (int) (Math.random() * 10));
+        return new Student(enrollee.getName(), "Группа #" + (int) (Math.random() * 10));
     }
 
     public Student study(Student student) throws InterruptedException {
